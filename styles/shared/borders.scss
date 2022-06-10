@@ -1,0 +1,38 @@
+%border-dashed {
+  background-image: linear-gradient(90deg, #000 50%, transparent 0),
+    linear-gradient(90deg, #000 50%, transparent 0),
+    linear-gradient(90deg, #000 50%, transparent 0),
+    linear-gradient(90deg, #000 50%, transparent 0);
+  background-position: 0 0, 0 100%, left 14px, 0 calc(100% - 14px);
+  background-repeat: repeat-x, repeat-x, repeat-x, repeat-x;
+  background-size: 24px 1px, 24px 1px, 24px 1px, 24px 1px;
+}
+
+%border-all {
+  background-image: linear-gradient(90deg, #000 50%, transparent 0),
+    linear-gradient(90deg, #000 50%, transparent 0),
+    linear-gradient(180deg, #000 50%, transparent 0),
+    linear-gradient(180deg, #000 50%, transparent 0);
+  background-position: 0 0, 0 100%, 0 0, 100% 0;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 30px 1px, 30px 1px, 1px 30px, 1px 30px;
+}
+
+%border-semi-dashed {
+  background-image: repeating-linear-gradient(
+      -74deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 1px,
+      transparent 0,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      -74deg,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 1px,
+      transparent 0,
+      transparent 4px
+    );
+  background-position: 0 0, 0 100%;
+  background-size: 100% 12px, 100% 12px;
+}

@@ -1,0 +1,143 @@
+.home {
+}
+
+.home__hero {
+  padding: 250px 60px 120px;
+}
+
+.home__hero__title {
+  font-size: 75px;
+  line-height: 86px;
+  letter-spacing: 0;
+  width: 100%;
+  max-width: 1030px;
+}
+
+.home__media {
+  margin-bottom: 60px;
+}
+
+.home__media__img {
+  position: relative;
+  padding-bottom: 66%;
+}
+
+.home__columns {
+  padding: 60px;
+}
+
+.home__columns__title {
+  font-size: 113px;
+  margin-bottom: 60px;
+  width: 100%;
+  max-width: 645px;
+}
+
+.home__columns__grid {
+  display: flex;
+  gap: 60px;
+}
+
+.home__grid__container {
+  flex: 1;
+}
+
+.home__grid__media {
+  position: relative;
+  padding-bottom: 135%;
+  margin-bottom: 30px;
+}
+
+.home__grid__text {
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.home__events {
+  padding: 60px 60px 150px;
+}
+
+.home__events__header {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  padding: 60px 0;
+}
+
+.home__header__title {
+  font-size: 100px;
+  line-height: 100px;
+  text-align: center;
+  max-width: 300px;
+}
+
+.home__header__logo {
+  font-size: 60px;
+}
+
+.home__events__row {
+  @extend %border-dashed;
+
+  padding: 75px 0 100px;
+  display: flex;
+  gap: 75px;
+  position: relative;
+
+  // animation: 0.8s infinite normal c;
+  // animation-timing-function: linear;
+}
+
+.home__row__container {
+  flex: 1;
+  text-align: center;
+}
+
+.home__row__date {
+  font-size: 12px;
+}
+
+.home__row__text {
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+.home__events__button {
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 180px;
+  padding: 20px;
+}
+
+.home__address {
+  display: flex;
+  gap: 60px;
+  padding: 0 60px;
+}
+
+.home__address__container {
+  @extend %border-all;
+
+  overflow: hidden;
+  z-index: 2;
+  width: 100%;
+  padding: 1px;
+
+  // animation: 0.4s infinite normal a;
+  // animation-timing-function: linear;
+  // animation-play-state: paused;
+}
+
+.home__address__text {
+  font-size: 60px;
+  text-align: center;
+  width: 100%;
+  padding: 90px 30px;
+}
+
+.home__address__media {
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
